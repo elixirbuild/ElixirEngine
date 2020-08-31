@@ -27,12 +27,6 @@ Also, create a canvas with an id attribute.
 </html>
 ```
 
-# Components
-These components are for what type of object you want.
-If you wanted a normal object you could just use the `Gravity()` function.
-If you wanted a bouncy object you could just use `Bounce()`.
-If you want a rotating/spinning object you can use `Rotate()`.
-
 Then create a js file.
 `script.js`
 ```js
@@ -93,6 +87,13 @@ function updateGameArea() {
 ```
 
 You can also use other components other than `bounce()`.
+
+# Components
+These components are for what type of object you want.
+If you wanted a normal object you could just use the `Gravity()` function.
+If you wanted a bouncy object you could just use `Bounce()`.
+If you want a rotating/spinning object you can use `Rotate()`.
+
 
 Normal Gravity
 ```js
