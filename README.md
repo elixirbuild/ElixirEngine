@@ -116,3 +116,7 @@ The number before `Math.PI` is the speed.
 ## Versions
 ### - 0.1.1
 First release of ElixirEngine.
+
+## Credits
+Rogan Wido - Programmer
+Othnian Guzman - Assistant Programmer
