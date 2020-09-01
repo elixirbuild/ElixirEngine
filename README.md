@@ -12,6 +12,7 @@ Also, create a canvas with an id attribute.
 ```html
 <html>
   <head>
+    <script src="elixir-engine-one.js"></script>
     <script src="script.js"></script>
     <title>Document</title>
   </head>
