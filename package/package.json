@@ -1,15 +1,15 @@
 {
-    "name": "EET1",
-    "version": "1.0.1",
+    "name": "EBT1",
+    "version": "1.0.0",
     "description": "A game engine for making games with javascript.",
-    "main": "src/eet1.js",
-    "bin": "src/eet1.js",
+    "main": "src/ebt1.js",
+    "bin": "src/ebt1.js",
     "scripts": {
         "start": "node src/eet1.js"
     },
     "keywords": [
-        "eet1",
-        "eet1.js"
+        "ebt1",
+        "ebt1.js"
     ],
     "author": "Elixir Build",
     "liscense": "MIT",
