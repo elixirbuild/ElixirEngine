@@ -1,6 +1,27 @@
 {
-    "name": "my-game",
-    "description": "My EET1 game.",
-    "product-name": "my-game",
-    "license": "MIT"
+    "name": "EET1",
+    "version": "1.0.1",
+    "description": "A game engine for making games with javascript.",
+    "main": "src/eet1.js",
+    "bin": "src/eet1.js",
+    "scripts": {
+        "start": "node src/eet1.js"
+    },
+    "keywords": [
+        "eet1",
+        "eet1.js"
+    ],
+    "author": "Elixir Build",
+    "liscense": "MIT",
+    "dependencies": {
+        "inquirer": "^6.3.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elixirbuild/ElixirEngine/render/src/elixir-engine-one.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/elixirbuild/ElixirEngine/issues"
+    },
+    "homepage": "https://github.com/elixirbuild/ElixirEngine/README.md"
 }
