@@ -1,5 +1,5 @@
 # ElixirEngine
-A javascript library for making 2D games and physics.
+A javascript library for making 2D games and physics. This library is normally used by Vantage Games.
 
 ![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json&style=flat-square)
 
