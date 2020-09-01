@@ -1,7 +1,7 @@
 # ElixirEngine
 A javascript library for making 2D games and physics. This library is normally used by Vantage Games.
 
-Developed and maintaned by Elixir Build 2020 - 2020
+Developed and maintaned by Elixir Build
 
 ## How to use
 
