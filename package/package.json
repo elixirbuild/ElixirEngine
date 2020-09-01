@@ -1,6 +1,6 @@
 {
     "name": "h",
     "description": "My EET1 game.",
+    "product-name": "my-game"
     "license": "MIT",
-    "product-name": "Game"
 }
