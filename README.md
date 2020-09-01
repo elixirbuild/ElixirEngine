@@ -1,4 +1,4 @@
-<img src="Logo.png" height="400" width="1000">
+<img src="Logo.png" height="530" width="1000">
 
 # ElixirEngine
 A javascript library for making 2D games and physics. This library is normally used by Vantage Games.
