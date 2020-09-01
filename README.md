@@ -1,5 +1,4 @@
 # ElixirEngine
-The game engine that was built specifically for our 2D games.
 A javascript library for making 2D games and physics.
 
 ![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json&style=flat-square)
