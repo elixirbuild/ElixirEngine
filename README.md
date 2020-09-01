@@ -1,8 +1,6 @@
 # ElixirEngine
 A javascript library for making 2D games and physics. This library is normally used by Vantage Games.
 
-![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json&style=flat-square)
-
 Developed and maintaned by Elixir Build 2020 - 2020
 
 ## How to use
