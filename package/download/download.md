@@ -1,5 +1,5 @@
 # Download
-## 0.1.0 (1)
+## 1.0.0
 <a href="https://github.com/elixirbuild/ElixirEngine/blob/master/render/src/elixir-engine-one.js" download>Download</a>
 <br>
 <br>
