@@ -98,7 +98,7 @@ function Gravity(width, height, color, x, y, type) {
 }    
 
 // Bouncy Hit
-function Bounce(width, height, color, x, y, type) {
+function Bounce(width, height, color, x, y, bounce = 0.6, type) {
     this.type = type;
     this.width = width;
     this.height = height;
@@ -108,7 +108,7 @@ function Bounce(width, height, color, x, y, type) {
     this.speedY = 0;
     this.gravity = 0.1;
     this.gravitySpeed = 0;
-    this.bounce = 0.6;
+    this.bounce = bounce;
     this.update = function () {
         ctx = GameArea.context;
         ctx.fillStyle = color;
