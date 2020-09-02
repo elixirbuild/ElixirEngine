@@ -1,5 +1,5 @@
 # Support
-<a href="https://github.com/elixirbuild/ElixirEngine/Issues">Help</a>
+<a href="https://github.com/elixirbuild/ElixirEngine/issues">Help</a>
 <br>
 This shows all the supported browsers.
 # Browser Support
