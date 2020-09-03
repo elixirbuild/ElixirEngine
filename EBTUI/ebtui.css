@@ -1,1 +1,94 @@
+canvas {
+    display: block;
+}
 
+span, p, h1, h2, h3, h4, h5, h6,
+div, input {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+}
+
+/* Classes and IDs*/
+
+/* Border Radius */
+.nw-border-radius {
+    border-top-left-radius: 8px;
+}
+
+.ne-border-radius {
+    border-top-right-radius: 8px;
+}
+.sw-border-radius {
+    border-bottom-left-radius: 8px;
+}
+
+.se-border-radius {
+    border-bottom-right-radius: 8px;
+}
+
+/* bg-color*/
+.bg-dark {
+    background: rgb(37, 37, 37);
+    color: white;
+}
+.bg-light-header {
+    background: rgb(240, 240, 240);
+    color: rgb(0, 0, 0); 
+}
+
+/* Dividers */
+.divider-dark {
+    border-top: 1px solid rgb(92, 92, 92);
+}
+.divider-light {
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+/* Text Colors */
+.white {
+    color: white;
+}
+.black {
+    color: rgb(0, 0, 0);
+}
+.navy-blue {
+    color: rgb(12, 5, 48);
+}
+.lightgray {
+    color: rgb(228, 228, 228);
+}
+.red {
+    color: red;
+}
+.blue {
+    color: rgb(17, 0, 255);
+}
+.blue-traditional {
+    color: rgb(0, 110, 255);
+}
+.purple {
+    color: rgb(247, 0, 255);
+}
+.green {
+    color: rgb(0, 255, 0);
+}
+.lime {
+    color: rgb(107, 255, 107);
+}
+.yellow {
+    color: rgb(255, 251, 0);
+}
+.grey {
+    color: grey;
+}
+
+/* Fonts */
+
+.serif {
+    font-family: serif;
+}
+.sans-serif {
+    font-family: sans-serif;
+}
