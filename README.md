@@ -126,3 +126,6 @@ First release of ElixirEngine.
 ## Credits
 - Rogan Wido - Programmer
 - Othnian Guzman - Assistant Programmer
+
+## License
+MIT
