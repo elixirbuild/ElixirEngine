@@ -68,37 +68,7 @@ function createClickable(color, x, y, width, height, f) {
 // Gravity
 
 // Normal Hit
-function Gravity(width, height, color, x, y, type) {
-    this.type = type;
-    this.width = width;
-    this.height = height;
-    this.x = x;
-    this.y = y;
-    this.speedX = 0;
-    this.speedY = 2;
-    this.gravity = 0.05;
-    this.gravitySpeed = 0;
-    this.update = function () {
-        ctx = GameArea.context;
-        ctx.fillStyle = color;
-        ctx.fillRect(this.x, this.y, this.width, this.height);
-    }
-    this.newPos = function () {
-        this.gravitySpeed += this.gravity;
-        this.x += this.speedX;
-        this.y += this.speedY + this.gravitySpeed;
-        this.hitBottom();
-    }
-    this.hitBottom = function () {
-        var rockbottom = GameArea.canvas.height - this.height;
-        if (this.y > rockbottom) {
-            this.y = rockbottom;
-        }
-    }
-}    
-
-// Bouncy Hit
-function Bounce(width, height, color, x, y, bounce = 0.6, type) {
+function Gravity(width, height, color, x, y, bounce = 0.6, type) {
     this.type = type;
     this.width = width;
     this.height = height;
@@ -127,7 +97,7 @@ function Bounce(width, height, color, x, y, bounce = 0.6, type) {
             this.gravitySpeed = -(this.gravitySpeed * this.bounce);
         }
     }
-}
+}    
 
 // Movement
 
