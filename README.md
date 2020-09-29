@@ -5,6 +5,22 @@ A javascript library for making 2D games and physics. This library is normally u
 
 Developed and maintaned by Elixir Build
 
+## New Stuff
+### 1.1.2
+- Minor: A new component called audio.
+```js
+// In the start function
+music = new Audio("audio/a_sound.wav");
+music.play();
+```
+- Patch: `Bounce` component deleted and added as a parameter in the Gravity Component.
+```js
+// New bounce parameter: Gravity(width, height, color, x, y, bounce)
+Obj = new Gravity(30, 30, "black", 30, 30, 0.6);
+```
+- Patch: You now don't need to add a `GameArea` variable.
+
+
 ## How to use
 
 Add an `onload="start()"` function we can create objects in the canvas.
