@@ -21,7 +21,7 @@ Obj = new Gravity(30, 30, "black", 30, 30, 0.6);
 - Patch: You now don't need to add a `GameArea` variable.
 
 
-## How to use
+## How to use (Outdated)
 
 Add an `onload="start()"` function we can create objects in the canvas.
 Also, create a canvas with an id attribute.
