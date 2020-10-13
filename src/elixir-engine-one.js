@@ -68,8 +68,12 @@ function createClickable(color, x, y, width, height, f) {
 // Gravity
 
 // Normal Hit
-function Gravity(width, height, color, x, y, bounce = 0.6, type) {
+function Gravity(width, height, color, x, y, bounce = 0, type) {
     this.type = type;
+    if (type == "image") {
+        this.image = new Image();
+        this.image.src = color;
+    }
     this.width = width;
     this.height = height;
     this.x = x;
@@ -81,8 +85,15 @@ function Gravity(width, height, color, x, y, bounce = 0.6, type) {
     this.bounce = bounce;
     this.update = function () {
         ctx = GameArea.context;
-        ctx.fillStyle = color;
-        ctx.fillRect(this.x, this.y, this.width, this.height);
+        if (type == "image") {
+            ctx.drawImage(this.image,
+                this.x,
+                this.y,
+                this.width, this.height);
+        } else {
+            ctx.fillStyle = color;
+            ctx.fillRect(this.x, this.y, this.width, this.height);
+        }
     }
     this.newPos = function () {
         this.gravitySpeed += this.gravity;
@@ -95,9 +106,10 @@ function Gravity(width, height, color, x, y, bounce = 0.6, type) {
         if (this.y > rockbottom) {
             this.y = rockbottom;
             this.gravitySpeed = -(this.gravitySpeed * this.bounce);
+            this.y = 0;
         }
     }
-}    
+}   
 
 // Movement
 
