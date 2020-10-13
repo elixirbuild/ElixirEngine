@@ -1,0 +1,12 @@
+1.1.2
+✔ Audio Component
+✔ Remove Bounce component
+✔ Add bounce parameter to Gravity Component
+✔ GameArea Variable in module
+
+1.3.0
+✔ Sprites
+
+TODO: 1.3.0
+☐ UI module for canvas
+☐ Image Support for UI module
