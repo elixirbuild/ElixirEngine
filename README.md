@@ -136,7 +136,7 @@ function updateGameArea() {
 The number before `Math.PI` is the speed.
 
 ## Versions
-### - 0.1
+### - 1.0
 First release of ElixirEngine.
 
 ## Credits
