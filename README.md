@@ -6,7 +6,7 @@ A javascript library for making 2D games and physics. This library is specifical
 Developed and maintaned by Elixir Build
 
 ## New Stuff
-### 1.1.2
+### 1.1.1
 - Minor: A new component called audio.
 ```js
 // In the start function
@@ -134,10 +134,6 @@ function updateGameArea() {
 ```
 
 The number before `Math.PI` is the speed.
-
-## Versions
-### - 1.0
-First release of ElixirEngine.
 
 ## Credits
 - Rogan Wido - Programmer
