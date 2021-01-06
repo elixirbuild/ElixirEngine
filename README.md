@@ -5,6 +5,9 @@ A javascript library for making 2D games and physics. This library is specifical
 
 Developed and maintaned by Elixir Build
 
+# NOTICE
+This game engine is now obsolete and now will be deleted due to harsh critisism from directors and producers of Vantage. There will be a new EBT game engine called V-Gen. But this game engine will not be deleted.
+
 ## New Stuff
 ### 1.1.1
 - Minor: A new component called audio.
